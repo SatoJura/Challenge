@@ -41,6 +41,8 @@ header {
   height: 650px;
   width: 100%;
   background-image: url("img/mv.png");
+  background-size: cover;
+  background-position: center;
 }
 
 /* =====footer===== */
