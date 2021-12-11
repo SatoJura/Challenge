@@ -30,6 +30,7 @@ header {
 }
 
 .nav-item {
+  width: 120px;
   color: #fafafa;
   padding: 0 30px;
   font-size: 16px;
@@ -45,7 +46,19 @@ header {
   background-position: center;
 }
 
+.mv-title {
+  color: #fafafa;
+  font-size: 64px;
+  padding-top: 200px;
+  text-align: center;
+}
 
+.mv-text {
+  color: #fafafa;
+  font-size: 20px;
+  margin-top: 10px;
+  text-align: center;
+}
 
 /* =====footer===== */
 footer {
