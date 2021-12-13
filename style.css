@@ -26,7 +26,6 @@ header {
 
 .nav-list {
   display: flex;
-  list-style: none;
 }
 
 .nav-item {
@@ -35,6 +34,7 @@ header {
   padding: 0 30px;
   font-size: 16px;
   line-height: 70px;
+  list-style: none;
 }
 
 /* =====main-visual===== */
