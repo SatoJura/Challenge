@@ -32,6 +32,38 @@
   text-align: center;
 }
 
+/* =====profile===== */
+#profile {
+  background-color:#ECEFF1
+}
+
+.profile-group {
+  padding: 30px 0 90px 0;
+  display: flex;
+}
+
+.profile-image {
+  background-image: url(img/my-icon.jpg);
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+.description-title {
+  font-size: 20px;
+  margin: 20px 0 5px 0;
+}
+
+.description-title:first-child {
+  margin-top: 0;
+}
+
+
+.description-text {
+  font-size: 16px;
+  color: #000000;
+}
+
 /* =====header===== */
 header {
   background-color: #ec715f;
