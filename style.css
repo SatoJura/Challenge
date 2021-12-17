@@ -206,6 +206,35 @@ header {
   color: #000000;
   text-align: left;
 }
+
+/* =====contact===== */
+.contact-group {
+  display: flex;
+  width: 800px;
+  margin: 0 auto;
+  padding: 30px 0 90px 0;
+}
+
+.left-contact-content {
+  margin: 0 auto;
+  width: 130px;
+}
+
+.right-contact-content {
+  margin: 0 auto;
+  width: 190px;
+}
+
+
+.fab {
+  font-size: 50px;
+  margin-right: 20px;
+}
+
+.fab:last-child {
+  margin: 0;
+}
+
 /* =====footer===== */
 footer {
   background-color: #ec715f;
