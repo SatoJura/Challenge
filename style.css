@@ -32,44 +32,15 @@
   text-align: center;
 }
 
-/* =====profile===== */
-#profile {
-  background-color:#ECEFF1
-}
-
-.profile-group {
-  padding: 30px 0 90px 0;
-  display: flex;
-}
-
-.profile-image {
-  background-image: url(img/my-icon.jpg);
-  width: 250px;
-  height: 250px;
+/* profile/contact共通 */
+.left-contact-content {
   margin: 0 auto;
-  border-radius: 50%;
+  width: 130px;
 }
 
-.description-title {
-  font-size: 20px;
-  margin: 20px 0 5px 0;
-}
-
-.description-title:first-child {
-  margin-top: 0;
-}
-
-.description-text {
-  font-size: 16px;
-  color: #000000;
-}
-
-.left-content {
-  width: 50%;
-}
-
-.right-content {
-  width: 50%;
+.right-contact-content {
+  margin: 0 auto;
+  width: 190px;
 }
 
 /* =====header===== */
@@ -177,6 +148,7 @@ header {
 .bg-6 {
   background-image: url(img/webcamp-mother.png);
 }
+
 /* =====feature===== */
 .strength-group {
   width: 980px;
@@ -207,6 +179,46 @@ header {
   text-align: left;
 }
 
+/* =====profile===== */
+#profile {
+  background-color:#ECEFF1
+}
+
+.profile-group {
+  padding: 30px 0 90px 0;
+  display: flex;
+}
+
+.profile-image {
+  background-image: url(img/my-icon.jpg);
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+.description-title {
+  font-size: 20px;
+  margin: 20px 0 5px 0;
+}
+
+.description-title:first-child {
+  margin-top: 0;
+}
+
+.description-text {
+  font-size: 16px;
+  color: #000000;
+}
+
+.left-content {
+  width: 50%;
+}
+
+.right-content {
+  width: 50%;
+}
+
 /* =====contact===== */
 .contact-group {
   display: flex;
@@ -214,17 +226,6 @@ header {
   margin: 0 auto;
   padding: 30px 0 90px 0;
 }
-
-.left-contact-content {
-  margin: 0 auto;
-  width: 130px;
-}
-
-.right-contact-content {
-  margin: 0 auto;
-  width: 190px;
-}
-
 
 .fab {
   font-size: 50px;
