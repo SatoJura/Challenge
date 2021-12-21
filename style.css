@@ -280,4 +280,13 @@ footer {
   .mv-text {
     font-size: 18px;
   }
+
+  /* portfolio */
+  .document-group {
+    width: 300px;
+  }
+  .document {
+    margin-top: 10px;
+    margin-right: 0px;
+  }
 }
