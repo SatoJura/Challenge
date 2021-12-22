@@ -291,4 +291,13 @@ footer {
   .sp-none {
     display: none;
   }
+  /* feature */
+  .strength-group {
+    flex-direction: column;
+    width: 320px;
+  }
+  .strength {
+    margin-top: 10px;
+    margin-right: 0px;
+  }
 }
