@@ -286,7 +286,9 @@ footer {
     width: 300px;
   }
   .document {
-    margin-top: 10px;
     margin-right: 0px;
+  }
+  .sp-none {
+    display: none;
   }
 }
