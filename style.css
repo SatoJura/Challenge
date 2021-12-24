@@ -255,6 +255,9 @@ footer {
   .container {
     width: 90%;
   }
+  .sp-none {
+    display: none;
+  }
 
   /* herder */
   header {
@@ -288,9 +291,7 @@ footer {
   .document {
     margin-right: 0px;
   }
-  .sp-none {
-    display: none;
-  }
+
   /* feature */
   .strength-group {
     flex-direction: column;
@@ -299,5 +300,18 @@ footer {
   .strength {
     margin-top: 10px;
     margin-right: 0px;
+  }
+
+  /* profile */
+  .profile-group {
+    flex-flow: row wrap;
+    text-align: center;
+  }
+  .left-content {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  .right-content {
+    width: 100%;
   }
 }
