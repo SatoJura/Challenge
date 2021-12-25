@@ -314,4 +314,10 @@ footer {
   .right-content {
     width: 100%;
   }
+  /* contact */
+  .contact-group {
+    flex-flow: row wrap;
+    width: 100%;
+    text-align: center;
+  }
 }
