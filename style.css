@@ -269,6 +269,28 @@ footer {
   .logo {
     height: 50px;
   }
+  .hamburger-menu {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #fafafa;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5%;
+    margin-left: auto;
+  }
+  .list-bar {
+    display: block;
+    background-color: #fafafa;
+    width: 25px;
+    height: 2px;
+    margin: 5px auto;
+  }
+  .list-bar:first-child {
+    margin-top :10px;
+  }
+  .nav-item {
+    display: none;
+  }
 
   /* main-visual */
   #mv {
